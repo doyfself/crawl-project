@@ -1,0 +1,13 @@
+country_code,country_name,app_name,url,available,error
+US,United States,"Facebook
+ 12+",https://apps.apple.com/US/app/id284882215,True,
+CN,China,,https://apps.apple.com/CN/app/id284882215,False,No connection adapters were found for 'itms-appss://apps.apple.com/CN/app/id284882215'
+JP,Japan,"Facebook
+ 12+",https://apps.apple.com/JP/app/id284882215,True,
+KR,Korea,"Facebook
+ 12+",https://apps.apple.com/KR/app/id284882215,True,
+GB,United Kingdom,"Facebook
+ 12+",https://apps.apple.com/GB/app/id284882215,True,
+DE,Germany,,https://apps.apple.com/DE/app/id284882215,False,No connection adapters were found for 'itms-appss://apps.apple.com/DE/app/id284882215'
+FR,France,"Facebook
+ 12+",https://apps.apple.com/FR/app/id284882215,True,
