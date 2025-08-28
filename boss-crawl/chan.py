@@ -200,14 +200,7 @@ def process_links_from_excel(excel_file):
                         content = locator.inner_text()
                         print(f"内容预览:\n{content[:200]}...\n")
                     else:
-                        print("未找到class为'introduce'的元素，尝试手动检查...")
-                        # 给用户时间手动确认
-                        input("请确认页面中是否有introduce元素，确认后按Enter继续...")
-                        # 再次尝试
-                        locator = find_introduce_element(new_page)
-                        if locator:
-                            content = locator.inner_text()
-                            print(f"找到元素，内容预览:\n{content[:200]}...\n")
+                        print("未找到class为'introduce'的元素")
                 
                 except PlaywrightTimeoutError:
                     print("页面加载超时")
